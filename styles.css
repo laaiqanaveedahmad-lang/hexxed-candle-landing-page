@@ -55,6 +55,8 @@ div {
 
 
 #video {
+  display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -64,12 +66,26 @@ div {
   margin: 20px;
 }
 
+
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  width: 100%;
+}
+
+.products section {
+  width: 100%;
+  max-width: 300px;
+  min-width: 0;
+}
+
+.products img {
+  display: block;
+  width: 100%;
   max-width: 100%;
+  height: auto;
 }
 
 h2 {
