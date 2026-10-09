@@ -57,8 +57,10 @@ div {
 .products {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 240px;
-}    
+  justify-content: center;
+  gap: 20px;
+  max-width: 100%;
+}
 
 h2 {
   text-align: center;
