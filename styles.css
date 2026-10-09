@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   overflow-x: hidden;
   background: linear-gradient(to right, black, #2b003d, #7a0000);
