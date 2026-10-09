@@ -166,3 +166,94 @@ body > p {
     margin: 20px 10px;
   }
 }
+
+
+/* MOBILE SCREEN FIX */
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: clip;
+  }
+
+  #header,
+  #nav-bar,
+  #video,
+  .about-us,
+  .products,
+  #form {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  #header {
+    padding: 10px;
+  }
+
+  #header-img {
+    display: block;
+    width: 70%;
+    max-width: 220px;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  #nav-bar {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 5px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+    overflow-wrap: anywhere;
+  }
+
+  #video {
+    display: block;
+    height: auto;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 25px;
+  }
+
+  .products section {
+    width: 100%;
+    max-width: 280px;
+    min-width: 0;
+  }
+
+  .products img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .products p,
+  .about-us p,
+  body > p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  #form input {
+    max-width: 100%;
+  }
+}
