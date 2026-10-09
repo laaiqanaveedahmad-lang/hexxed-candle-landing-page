@@ -69,6 +69,23 @@ h2 {
   background-color: yellow;
 }
 
+/* Mobile responsive styles */
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
 .about-us {
   margin: 50px;
 }
