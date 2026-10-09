@@ -1,11 +1,24 @@
 
-
+html {
+  min-height: 100%;
+  background: #2b003d;
+}
 
 body {
-  overflow-x: hidden;
-  background: linear-gradient(to right, black, #2b003d, #7a0000);
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    to right,
+    black,
+    #2b003d,
+    #7a0000
+  );
+  background-attachment: scroll;
   color: white;
+  overflow-x: hidden;
 }
+
+
 
 h1, h2, h3 {
   font-family: "Palatino Linotype", serif;
