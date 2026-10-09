@@ -1,0 +1,75 @@
+body {
+  overflow-x: hidden;
+  background: linear-gradient(to right, black, #2b003d, #7a0000);
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", serif;
+}
+
+h3, span {
+  color: yellow;
+  text-align: center;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+}
+
+.nav-link {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    width: 100%;
+    height: auto;
+  }
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+}
+
+#video {
+  width: 100%;
+  align-items: center;
+  
+}
+
+#form {
+  bottom: 0;
+  margin: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 240px;
+}    
+
+h2 {
+  text-align: center;
+}
+
+.submit:hover {
+  background-color: purple;
+}
+
+.submit:focus {
+  background-color: yellow;
+}
+
+.about-us {
+  margin: 50px;
+}
+    
